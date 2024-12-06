@@ -1,2 +1,2 @@
-# L-gica-de-programa-o-com-Javascript-Node.JS-
+# Lógica-de-programação-com-Javascript-Node.JS-
 Estudando ( curso ADA Santander)
