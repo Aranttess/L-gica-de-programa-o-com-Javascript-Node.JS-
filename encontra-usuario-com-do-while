@@ -1,0 +1,20 @@
+const listaDeContatos = ['Paulo', 'Ricardo', 'Joao', 'Maria', 'Zeca', 'Nathalia', 'Bianca', 'Armando', 'Carla'];
+
+//• SOLUCAO 4 COM DO WHILE
+let encontrouUsuarioOuPercorreuLista = false;
+let indiceDoUsuario = 0;
+
+// EXECUTA PELO MENOS 1 VEZ OBRIGATORIAMENTE
+do  {
+    const usuarioAtual = listaDeContatos[indiceDoUsuario]
+    if (usuarioAtual && usuarioAtual.startsWith('Z')) {
+        encontrouUsuarioOuPercorreuLista = true
+        console.log(`Usúario econtrado: ${usuarioAtual}`)
+    }
+    indiceDoUsuario += 1
+
+    if (indiceDoUsuario >= listaDeContatos.length) {
+        atingiuFimDaLista = true
+        console.log('Usúario não encontrado')
+    }
+} while (!encontrouUsuarioOuPercorreuLista)
